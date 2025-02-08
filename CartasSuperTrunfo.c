@@ -58,16 +58,16 @@ int main() {
         printf("Código da cidade (Ex: A01, B02): ");
         scanf("%s", cidades[i].codigo);
         
-        printf("População: ");
+        printf("População: (Ex: 5000000) ");
         scanf("%d", &cidades[i].populacao);
         
-        printf("Área (km²): ");
+        printf("Área (km²): (Ex: 12.65) ");
         scanf("%f", &cidades[i].area);
         
-        printf("PIB (bilhões): ");
+        printf("PIB (bilhões): (Ex: 50.63) ");
         scanf("%f", &cidades[i].pib);
         
-        printf("Número de pontos turísticos: ");
+        printf("Número de pontos turísticos: (Ex: 25) ");
         scanf("%d", &cidades[i].pontos_turisticos);
         
         // Calcula os dados derivados
