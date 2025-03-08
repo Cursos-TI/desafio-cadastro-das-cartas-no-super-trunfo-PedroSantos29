@@ -33,7 +33,7 @@ void exibir_dados(Cidade cidade) {
 
 void comparar_cartas(Cidade c1, Cidade c2) {
     printf("\nComparação entre %s e %s:\n", c1.codigo, c2.codigo);
-    printf("Densidade Populacional: %s vence!\n", (c1.densidade_populacional > c2.densidade_populacional) ? c1.codigo : c2.codigo);
+    printf("Densidade Populacional: %s vence!\n", (c1.densidade_populacional < c2.densidade_populacional) ? c1.codigo : c2.codigo);
     printf("População: %s vence!\n", (c1.populacao > c2.populacao) ? c1.codigo : c2.codigo);
     printf("Área: %s vence!\n", (c1.area > c2.area) ? c1.codigo : c2.codigo);
     printf("PIB: %s vence!\n", (c1.pib > c2.pib) ? c1.codigo : c2.codigo);
